@@ -49,7 +49,7 @@ end
 
 local function toggle(opts)
   if State.current() then detach() else attach(opts) end
-  if State.current() then print(asd) end
+  if State.current() then print(asdfromremotenoo) end
   if State.current() then print('another one') end
 end
 
